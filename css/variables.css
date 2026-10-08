@@ -1,0 +1,63 @@
+/* ---------------------------------------------------------
+   Design tokens : toutes les valeurs réutilisables du projet
+   --------------------------------------------------------- */
+:root {
+  /* --- Couleurs de fond --- */
+  --color-bg:          #0f1115;   /* fond général */
+  --color-surface:     #171a21;   /* cartes, panneaux */
+  --color-surface-2:   #1f232c;   /* surfaces élevées (hover, inputs) */
+  --color-border:      #2a2f3a;   /* bordures discrètes */
+
+  /* --- Couleurs de texte --- */
+  --color-text:        #e8eaed;   /* texte principal */
+  --color-text-muted:  #9aa0aa;   /* texte secondaire */
+  --color-text-faint:  #666c78;   /* texte désactivé */
+
+  /* --- Couleur d'accent (brand) --- */
+  --color-accent:      #6d5efc;   /* violet moderne */
+  --color-accent-hover:#7f72ff;
+  --color-accent-soft: rgba(109, 94, 252, 0.15);
+
+  /* --- Couleurs sémantiques --- */
+  --color-success:     #3ecf8e;
+  --color-warning:     #f5b545;
+  --color-danger:      #ef5b5b;
+  --color-info:        #4aa8ff;
+
+  /* --- Espacements (échelle 4px) --- */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  48px;
+
+  /* --- Rayons --- */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* --- Typographie --- */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --text-xs:   12px;
+  --text-sm:   14px;
+  --text-base: 16px;
+  --text-lg:   18px;
+  --text-xl:   22px;
+  --text-2xl:  28px;
+
+  /* --- Ombres --- */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.45);
+
+  /* --- Layout --- */
+  --sidebar-width: 240px;
+  --topbar-height: 64px;
+
+  /* --- Transitions --- */
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+}
