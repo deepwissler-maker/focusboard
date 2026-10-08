@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FocusBoard — Tableau de bord personnel</title>
+  <meta name="description" content="Tâches, budget, notes et agenda dans un seul tableau de bord." />
+
+  <!-- Feuilles de style : l'ordre compte (reset → variables → layout) -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+</head>
+<body>
+
+  <!-- L'application entière est construite ici par le JavaScript -->
+  <div id="app" class="app-shell">
+    <aside id="sidebar" class="sidebar" aria-label="Navigation principale"></aside>
+    <main id="view" class="view" aria-live="polite"></main>
+  </div>
+
+  <!-- On charge main.js en module : il orchestrera le reste -->
+  <script type="module" src="js/main.js"></script>
+
+</body>
+</html>
