@@ -139,4 +139,9 @@ body {
   .view {
     padding: var(--space-4);
   }
+   /* Icônes de la sidebar */
+ .sidebar__link svg {
+    flex-shrink: 0;
+    color: inherit;
+  }
 }
