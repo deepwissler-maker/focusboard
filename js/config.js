@@ -12,11 +12,7 @@ export const STORAGE_KEYS = {
   NOTES:  "notes",
 };
 
-/**
- * Routes de l'application.
- * Chaque route a : un label (affiché dans la sidebar) et une icône SVG.
- * L'icône est un chemin SVG inline (viewBox 24x24, style Feather Icons).
- */
+/** Routes de l'application. */
 export const ROUTES = {
   DASHBOARD: {
     id: "dashboard",
@@ -45,5 +41,22 @@ export const ROUTES = {
   },
 };
 
-/** Route par défaut au démarrage. */
 export const DEFAULT_ROUTE = ROUTES.DASHBOARD.id;
+
+/* ---------------------------------------------------------
+   Constantes métier — Tâches
+   --------------------------------------------------------- */
+
+/** Priorités possibles pour une tâche. */
+export const TASK_PRIORITIES = {
+  LOW:    { id: "low",    label: "Basse",  color: "var(--color-info)"    },
+  MEDIUM: { id: "medium", label: "Moyenne", color: "var(--color-warning)" },
+  HIGH:   { id: "high",   label: "Haute",  color: "var(--color-danger)"  },
+};
+
+/** Statuts possibles pour une tâche. */
+export const TASK_STATUSES = {
+  TODO:  { id: "todo",  label: "À faire" },
+  DOING: { id: "doing", label: "En cours" },
+  DONE:  { id: "done",  label: "Terminée" },
+};
